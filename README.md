@@ -1,10 +1,10 @@
-# 🐦 Flappy React
+# 🐦 Flappy Birdy 🐦
 
-**Flappy React** is a full-featured, retro-modern, high-fidelity arcade clone of the iconic mobile game Flappy Bird. Powered by a responsive HTML5 Canvas engine, React coordinate routers, Tailwind CSS, and lightweight in-flight Web Audio oscillators.
+**Flappy Birdy** is a full-featured, retro-modern, high-fidelity arcade clone of the iconic mobile game Flappy Bird. Powered by a responsive HTML5 Canvas engine, React coordinate routers, Tailwind CSS, and lightweight in-flight Web Audio oscillators.
 
 ---
 
-## 🎨 Creative & Technical Features
+## Creative & Technical Features
 
 1. **FPS-Independent Canvas Physics**: Calculates delta time ratios on every animation repaint. The game runs identically on a standard 60Hz screen, an ultra-fast 120Hz/144Hz desktop monitor, or a handheld mobile phone.
 2. **Web Audio Synthesizer**: Implements procedural audio rendering via the browser's native `AudioContext` object. No bulky MP3/WAV static asset files to download (which means zero 404 network concerns), lightweight sound effects, and persistent mute preservation.
@@ -14,7 +14,7 @@
 
 ---
 
-## 🏗️ Project Architecture Layout
+## Project Architecture Layout
 
 - `/src/types.ts`: Models all strictly typed schemas such as state machines, physics boundaries, particles, and settings.
 - `/src/utils/audio.ts`: Custom synthesizers crafting acoustic frequency waveforms for flaps, points, explosions, and achievements.
@@ -27,7 +27,7 @@
 
 ---
 
-## 🕹️ Game Physics Reference Guide
+## Game Physics Reference Guide
 
 - **Virtual Grid Scale**: `480px` width by `640px` height (scaled seamlessly via adaptive aspect ratios).
 - **Gravity Acceleration**: `0.36px / frame²` (Eased on crash).
@@ -39,7 +39,7 @@
 
 ---
 
-## 🚀 Speed Setup Instructions
+## Speed Setup Instructions
 
 ### 1. Verification of Node dependencies
 ```bash
@@ -59,7 +59,7 @@ The static compiler exports distribution files cleanly into `dist/`.
 
 ---
 
-## 🐦 Play Deck Key Controls
+## Play Deck Key Controls
 
 - **Flap**: Press **Spacebar**, **Up Arrow (`ArrowUp`)**, or click/tap the screen viewport.
 - **Pause/Resume**: Press **Escape (`Esc`)** or **P (`KeyP`)**, or click the toggle on the top right HUD.
