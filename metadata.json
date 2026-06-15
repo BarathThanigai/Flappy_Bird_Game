@@ -1,0 +1,6 @@
+{
+  "name": "Flappy React",
+  "description": "A polished, retro-modern Flappy Bird clone built with React, Canvas, and custom Web Audio synthesizer sounds.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
